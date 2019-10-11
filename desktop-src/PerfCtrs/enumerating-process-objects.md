@@ -89,7 +89,7 @@ void main(void)
             }
             else 
             {
-                wprintf(L"Second PdhEnumObjectItems failed with %0x%x.\n", status);
+                wprintf(L"Second PdhEnumObjectItems failed with 0x%x.\n", status);
             }
         } 
         else 
